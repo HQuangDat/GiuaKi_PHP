@@ -1,0 +1,98 @@
+.table-container {
+    overflow-x: auto;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px; 
+    text-align: left;
+    border-bottom: 2px solid #eee;
+}
+
+th {
+    background-color: #009879; 
+    color: #ffffff; 
+    font-weight: bold;
+    letter-spacing: 0.5px; 
+}
+
+tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+tr:hover {
+    background-color: #ddd; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px; 
+    color: #333; 
+    animation: colorChange 5s infinite, zoom 1s infinite, shadow 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: green;
+    }
+
+    75% {
+        color: orange;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes shadow {
+    0% {
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    50% {
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+
+    100% {
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+.avatar {
+    width: 50px; 
+    height: auto; 
+    border-radius: 50%; 
+    display: block; 
+    margin: auto; 
+}

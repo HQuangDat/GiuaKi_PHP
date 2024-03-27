@@ -1,52 +1,52 @@
 body {
-    font-family: 'Arial', sans-serif; /* Modern and clean font */
-    background-color: #f4f4f4; /* Light grey background for a subtle look */
-    color: #333; /* Dark grey text for better readability */
-    line-height: 1.6; /* Spacing between lines */
-    padding: 20px; /* Padding around the body content */
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6; 
+    padding: 20px;
 }
 
 h1, h2 {
-    text-align: center; /* Center aligns the headings */
-    color: #009879; /* A fresh, modern color */
+    text-align: center;
+    color: #009879; 
 }
 
 form {
-    background: #fff; /* White background for the form */
-    padding: 20px; /* Padding inside the form */
-    border-radius: 5px; /* Rounded corners for the form */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    max-width: 500px; /* Maximum width of the form */
-    margin: 30px auto; /* Centers the form on the page with margin */
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin: 30px auto;
 }
 
 .row {
-    margin-bottom: 10px; /* Space between form rows */
+    margin-bottom: 10px;
 }
 
 .lbltitle {
-    margin-bottom: 5px; /* Space between label and input */
+    margin-bottom: 5px;
 }
 
 .lblinput input[type='text'],
 .lblinput input[type='number'] {
-    width: 100%; /* Full width inputs */
-    padding: 10px; /* Padding inside the inputs */
-    border: 1px solid #ddd; /* Subtle border for the inputs */
-    border-radius: 5px; /* Rounded corners for the inputs */
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 input[type='submit'] {
-    display: block; /* Allows the button to take the width property */
-    width: 100%; /* Full width button */
-    padding: 10px; /* Padding inside the button */
-    border: none; /* No border for the button */
-    background-color: #009879; /* Background color for the button */
-    color: white; /* Text color for the button */
-    border-radius: 5px; /* Rounded corners for the button */
-    cursor: pointer; /* Pointer cursor on hover */
+    display: block;
+    width: 100%; 
+    padding: 10px; 
+    border: none;
+    background-color: #009879; 
+    color: white; 
+    border-radius: 5px; 
+    cursor: pointer; 
 }
 
 input[type='submit']:hover {
-    background-color: #007961; /* Darker shade on hover for the button */
+    background-color: #007961; 
 }

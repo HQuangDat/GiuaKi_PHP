@@ -94,6 +94,9 @@
         <div class="row">
             <input type="submit" name="btnsubmit" value="Thêm nhân viên">
         </div>
+        <div class="Home">
+            <a type="button" href="index.php">Back to List</a>
+        </div>
     </form>
 </body>
 

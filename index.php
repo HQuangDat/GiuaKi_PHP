@@ -23,6 +23,7 @@ require_once("entities/nhanvien.class.php");
                     <th>Nơi sinh</th>
                     <th>Tên Phòng</th>
                     <th>Lương</th>
+                    <th>Action</th>
                 </tr>
                 <?php
                 $nhanviens = NHANVIEN::list_nhanvien();
